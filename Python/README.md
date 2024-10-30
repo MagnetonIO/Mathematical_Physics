@@ -22,12 +22,13 @@ This Python project provides implementations of proofs and concepts from the pap
 
 ### Clone the Repository
 
-git clone https://github.com/MagnetonIO/Mathematical_Physics
-cd Mathematical_Physics/Python
+- git clone https://github.com/MagnetonIO/Mathematical_Physics
+- cd Mathematical_Physics/Python
 
 ## Create a Virtual Environment (Optional)
-python3 -m venv venv
-source venv/bin/activate
+
+- python3 -m venv venv
+- source venv/bin/activate
 
 ## Install Dependencies
 
@@ -39,15 +40,13 @@ python main.py
 
 ## Expected Output
 
-Classical Limit Example:
-Commutator / (i * hbar): p*q - q*p
-Poisson Bracket: 1
+### Classical Limit Example:
+- **Commutator / (i * ħ)**: `0.0 :+ 0.0`
+- **Poisson Bracket**: `1.0 :+ 0.0`
 
-Quantum Logic Example:
-QuantumProposition(Non-Boolean conjunction)
+### Quantum Logic Example:
+- **Quantum "Non-Boolean conjunction"**
 
-Representation Equivalence Example:
-Classical Representation: g
-Quantum Representation: U(g)
-
-
+### Representation Equivalence Example:
+- **ClassicalRep**: `"g"`
+- **QuantumRep**: `"U(g)"`

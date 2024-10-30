@@ -24,13 +24,13 @@ This Haskell project implements proofs and concepts from the paper **"A Unified 
 
 ### Clone the Repository
 
-git clone https://github.com/MagnetonIO/Mathematical_Physics
-cd Mathematical_Physics/Haskell 
+- git clone https://github.com/MagnetonIO/Mathematical_Physics
+- cd Mathematical_Physics/Haskell 
 
 ## Build the Project
 
-stack setup
-stack build
+- stack setup
+- stack build
 
 ## Run the Code
 
@@ -38,16 +38,15 @@ stack run
 
 ## Expected Output
 
-Classical Limit Example:
-Commutator / (i * hbar): 0.0 :+ 0.0
-Poisson Bracket: 1.0 :+ 0.0
+### Classical Limit Example:
+- **Commutator / (i * ħ)**: `0.0 :+ 0.0`
+- **Poisson Bracket**: `1.0 :+ 0.0`
 
-Quantum Logic Example:
-Quantum "Non-Boolean conjunction"
+### Quantum Logic Example:
+- **Quantum "Non-Boolean conjunction"**
 
-Representation Equivalence Example:
-ClassicalRep "g"
-QuantumRep "U(g)"
-
+### Representation Equivalence Example:
+- **ClassicalRep**: `"g"`
+- **QuantumRep**: `"U(g)"`
 
 
