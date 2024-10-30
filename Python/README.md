@@ -6,14 +6,6 @@ This Python project provides implementations of proofs and concepts from the pap
 
 ## Project Structure
 
-Python/
-├── classical_limit.py
-├── quantum_logic.py
-├── representation_equivalence.py
-├── main.py
-├── requirements.txt
-├── .gitignore
-
 - **classical_limit.py**: Implements the classical limit of quantum mechanics.
 - **quantum_logic.py**: Models the embedding of classical logic into quantum logic.
 - **representation_equivalence.py**: Demonstrates the equivalence of group representations under a functor.

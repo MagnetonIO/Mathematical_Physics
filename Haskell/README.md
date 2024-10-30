@@ -6,16 +6,6 @@ This Haskell project implements proofs and concepts from the paper **"A Unified 
 
 ## Project Structure
 
-Haskell/
-├── src/
-│   ├── ClassicalLimit.hs
-│   ├── QuantumLogic.hs
-│   ├── RepresentationEquivalence.hs
-├── Main.hs
-├── package.yaml
-├── stack.yaml
-├── .gitignore
-
 - **src/**: Contains the source code modules.
   - **ClassicalLimit.hs**: Implements the classical limit of quantum mechanics.
   - **QuantumLogic.hs**: Models the embedding of classical logic into quantum logic.
