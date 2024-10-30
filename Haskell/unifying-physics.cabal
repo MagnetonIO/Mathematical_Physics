@@ -1,0 +1,35 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.37.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           unifying-physics
+version:        0.1.0.0
+build-type:     Simple
+
+library
+  exposed-modules:
+      ClassicalLimit, QuantumLogic, RepresentationEquivalence
+  other-modules:
+      ClassicalLimit
+      QuantumLogic
+      RepresentationEquivalence
+      Paths_unifying_physics
+  hs-source-dirs:
+      src
+  build-depends:
+      ad >=4.4
+    , base ==4.18.*
+  default-language: Haskell2010
+
+executable unifying-physics
+  main-is: Main.hs
+  other-modules:
+      Paths_unifying_physics
+  hs-source-dirs:
+      ./
+  build-depends:
+      ad >=4.4
+    , base ==4.18.*
+  default-language: Haskell2010
